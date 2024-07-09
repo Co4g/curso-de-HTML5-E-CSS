@@ -11,6 +11,7 @@ header {
 nav {
     background-color: #aaaaaa;
     padding: 3px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.493);
 }
 nav > a {
     text-decoration: none;
@@ -18,10 +19,15 @@ nav > a {
     font-weight: bold;
     margin-right: 30px;
 }
+nav > a:hover {
+    text-decoration: underline;
+}
 main {
     background-color: white;
     padding: 10px;
     margin: 10px;
+    border-radius: 20px 0px;
+    box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.521);
 }
 article {
     background-color: lightgray;
@@ -32,4 +38,14 @@ footer {
     padding: 1px;
     text-align: center;
     margin: 0px;
+}
+footer > p {
+    margin: 4px;
+}
+div#bola {
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 25px;
 }
