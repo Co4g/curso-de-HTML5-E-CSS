@@ -1,0 +1,74 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'Android';
+    src: url(fontes/idroid.otf) format('truetype');
+}
+
+body {
+    background-color: #82E2AA;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1em;
+}
+header {
+    background-image: linear-gradient(to bottom, #19CE64, #19CE64, #16B357, #0E773A, #0E773A);
+    height: auto;
+    width: 100%;
+    margin: 0px;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    font-size: 1em;
+}
+main h1 {
+    color: #0E773A;
+    font-family: 'Android', Arial, Helvetica, sans-serif;
+}
+nav {
+    text-align: left;
+}
+nav a {
+    margin: 5px;
+    text-decoration: none;
+    color: white;
+
+}
+main {
+    background-color: white;
+    color: black;
+    text-indent: 1em;
+    text-align: justify;
+    margin: 0 auto;
+    height: auto;
+    width: 80%;
+    padding: 10px;
+}
+img {
+    width: 100%;
+    height: auto;
+}
+main h2 {
+    background-image: linear-gradient(to right, #82e2aac7, #82e2aa85, #82e2aa31);
+    color: #0E773A;
+    font-size: bold;
+    font-family: 'Android', Arial, Helvetica, sans-serif;
+}
+footer {
+    background-color: #0B582B;
+    text-align: center;
+    color: white;
+    margin: 0px;
+    padding: 10px;
+}
+div {
+    width: 98%;
+    height: auto;
+    background-color: #19CE64;
+    padding: 8px;
+    border-radius: 5px;
+}
+#titulodiv {
+    background-color: #0B582B;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+
+}
