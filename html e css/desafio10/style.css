@@ -38,9 +38,10 @@ nav a {
 
 }
 nav a:hover {
-    color: #19CE64;
-    text-decoration: underline;
-
+    color: #ffffff;
+    background-color: #29e47abe;
+    border-radius: 5px;
+    padding: 5px;
 }
 main {
     background-color: white;
@@ -67,9 +68,10 @@ footer {
     background-color: #0B582B;
     text-align: center;
     color: white;
-    margin: 10px;
+    margin: 0 auto;
     padding: 10px;
     width: 100%;
+    margin-top: 10px;
 }
 div {
     width: 97%;
