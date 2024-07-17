@@ -4,6 +4,7 @@
     src: url(fontes/idroid.otf) format('truetype');
 }
 
+
 body {
     background-color: #82E2AA;
     font-family: 'Times New Roman', Times, serif;
@@ -50,7 +51,8 @@ main {
     text-align: justify;
     margin: 0 auto;
     height: auto;
-    width: 85%;
+    min-width: 320px;
+    max-width: 1000px;
     padding: 10px;
     border-radius: 10px;
 }
