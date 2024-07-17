@@ -3,6 +3,7 @@
     font-family: 'Android';
     src: url(fontes/idroid.otf) format('truetype');
 }
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
 
 
 body {
@@ -12,6 +13,9 @@ body {
     margin: 0;
     padding: 0;
 }
+a.externo::after {
+    content: '\00A0\1f517';
+}
 header {
     background-image: linear-gradient(to bottom, #19CE64, #19CE64, #16B357, #0E773A, #0E773A);
     height: auto;
@@ -20,10 +24,19 @@ header {
     padding: 5px;
     text-align: center;
     color: white;
-    font-size: 1em;
+    font-family: "Bebas Neue", sans-serif;
+    height: 175px;
+    font-weight: bolder
 }
 header h1 {
-    font-size: bold;
+    font-size: 2em;
+    text-shadow: 2px 2px 0px #000a0483;
+}
+header p {
+    margin: auto;
+    width: 400px;
+    padding: 10px;
+    text-shadow: 1px 1px 0px #000a0483;
 }
 main h1 {
     color: #0E773A;
@@ -36,7 +49,7 @@ nav a {
     margin: 5px;
     text-decoration: none;
     color: white;
-
+    font-size: 0.8em;
 }
 nav a:hover {
     color: #ffffff;
@@ -47,7 +60,7 @@ nav a:hover {
 main {
     background-color: white;
     color: black;
-    text-indent: 1em;
+    text-indent: 1.5em;
     text-align: justify;
     margin: 0 auto;
     height: auto;
@@ -55,6 +68,11 @@ main {
     max-width: 1000px;
     padding: 10px;
     border-radius: 10px;
+}
+
+main p {
+    margin: 15px 10px;
+    line-height: 25px;
 }
 img {
     width: 100%;
@@ -78,24 +96,33 @@ footer {
 div {
     width: 97%;
     height: auto;
-    background-color: #457c5cd0;
+    background-color: #41865eda;
     padding: 8px;
-    border-radius: 5px;
+    border-radius: 10px;
     margin: 5px auto;
+}
+
+div ul {
+    columns: 2;
+    list-style-type: '\2714';
 }
 div a {
     color: #013a19;
     background-color: #5fe79883;
     text-decoration: none;
+    border-radius: 3px;
 }
 div a:hover {
     color: #000a04;
     text-decoration: underline;
 }
-#titulodiv {
-    background-color: #0B582B;
+div h3 {
+    background-color: #013a19;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
-    padding: 0px;
-    margin: 0;
+    font-family: "Bebas Neue", Times, serif;
+    padding: 5px;
+    margin: -8px -8px 0px -8px;
+    border-radius: 10px 10px 0px 0px;
+    text-indent: 10px;
+    font-size: 20px;
 }
