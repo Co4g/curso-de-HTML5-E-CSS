@@ -1,34 +1,40 @@
 @charset "UTF-8";
 
-* {
-    margin: 0px;
-    font-size: 1em;
-}
-body {
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+AR:wght@100..400&display=swap');
+
+:root {
+    --font1: "Playwrite AR", cursive;
+    }
+
+html, body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 0px;
-    font-size: bold;
+    font-size: 2vw;
     min-height: 100vh;
     background-color: darkgray;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
 }
 
 header {
     background-color: black;
     color: white;
     width: 100%;
-    height: 175px;
     margin: 0px;
     text-align: center;
 }
 header h1 {
-    font-size: 2em;
-    padding-top: 20px;
+    font-size: 5vw;
+    padding-top: 50px;
     margin: 0px;
+    font-variant: small-caps;
 }
 
 header p {
-    padding: 0px;
+    padding-bottom: 50px;
     margin: 0px;
+    font-size: 1em;
 }
  #img1 {
     background-image: url(imagens/background001.jpg);
@@ -40,8 +46,8 @@ header p {
  }
 
  .para {
-    background-color: rgba(0, 0, 0, 0.253);
-    width: 50%;
+    background-color: rgba(0, 0, 0, 0.356);
+    width: 55%;
     margin-left: 20px;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -52,26 +58,34 @@ header p {
 section {
     font-size: 1.3em;
     margin: 0px;
-    padding-top: 8vh;
-    padding-bottom: 8vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
     width: 100%;
     padding-left: 30px;
-    background-color: white;
+    background-color: #f5f5dc;
+    font-family: var(--font1);
 }
 .imagem {
     background-color: rgb(51, 51, 51);
     background-size: cover;
     background-attachment: fixed;
+    display: inline-block;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.349);
 }
 
 p {
     white-space: pre-wrap;
     line-height: 1.5;
-}
+
+    }
 a {
     color: white;
     text-decoration: none;
     font-size: bold;
+}
+a:hover {
+    text-decoration: underline;
+    font-size: 1.05em;
 }
 footer {
     background-color: black;
