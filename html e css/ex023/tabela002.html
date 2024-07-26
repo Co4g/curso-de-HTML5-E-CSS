@@ -13,6 +13,7 @@
             width: 500px;
             border-collapse: collapse;
             background-color: rgb(255, 255, 255);
+            position: relative;
 
         }
         caption {
@@ -35,6 +36,11 @@
         thead, tfoot {
             color: white;
             background-color: rgb(153, 152, 152);
+        }
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: #383838;
         }
     </style>
 </head>
