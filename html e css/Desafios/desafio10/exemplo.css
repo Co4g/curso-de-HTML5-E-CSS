@@ -1,0 +1,8 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.item {
+    flex: 1 1 200px; /* Cresce, encolhe e tem um tamanho base de 200px */
+}
