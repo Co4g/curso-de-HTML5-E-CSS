@@ -16,7 +16,7 @@ Desktop: 992px até 1200px;
     }
     #phone {display: none;}
     #tablet {display: none;}
-    #print {display: block;}
+    #print {display: block;} 
     #pc {display: none;}
     #tv {display: none;}
 }
